@@ -1,2 +1,6 @@
 # chatServer
 在nginx tcp负载均衡环境中的集群聊天服务器和客户端源码 使用开源muduo网络库实现网络模块 使用mysql存储数据 使用redis实现跨服务器通信
+cd build
+rm -rf *
+cmake ..
+make
